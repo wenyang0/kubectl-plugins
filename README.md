@@ -21,7 +21,7 @@ $ cp * /usr/local/bin/
 #或者可以使用下面这条命令来完成一键安装
 mkdir -p /tmp/kubectl-all && \
 cd /tmp/kubectl-all && \
-wget https://gitlab-ce.alauda.cn/opensource/kubectl-plugins/-/archive/master/kubectl-plugins-master.tar.gz?path=kubectl-all -O kubectl-all.tar.gz && \
+wget https://github.com/opensource/kubectl-plugins/-/archive/master/kubectl-plugins-master.tar.gz?path=kubectl-all -O kubectl-all.tar.gz && \
 tar -zxvf kubectl-all.tar.gz && \
 cp -rvf ./kubectl-plugins-master-kubectl-all/kubectl-all/* /usr/local/bin/
 
