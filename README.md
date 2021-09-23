@@ -60,7 +60,7 @@ source  ~/.bashrc
 
 kubectl 配置别名：
 
-echo "alias kc='kubectl' >> ~/.bashrc
+echo "alias kc='kubectl'" >> ~/.bashrc
 source ~/.bashrc
 
 ```
